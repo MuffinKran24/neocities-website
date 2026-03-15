@@ -1,6 +1,11 @@
+@font-face {
+  font-family: BigBlueTerm;
+  src: url(Assets/BigBlueTerm437NerdFont-Regular.ttf)
+}
+
 body {
   background-color: #282828;
-  font-family: "BigBlueTerm437 Nerd Font", monospace;
+  font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -9,8 +14,7 @@ body {
   font-size: 24;
   text-align: center;
   text-shadow: 0 0 10px #ebdbb2, 
-               0 0 20px #ebdbb2, 
-               0 0 30px #ebdbb2;
+               0 0 15px #ebdbb2, 
 }
 
 h1 {
@@ -19,8 +23,7 @@ h1 {
   margin-top: 50;
   font-size: 56;
   text-shadow: 0 0 10px #36a852, 
-               0 0 20px #36a852, 
-               0 0 30px #36a852;
+               0 0 15px #36a852, 
 }
 
 .back {
@@ -42,8 +45,8 @@ a {
   text-align: center;
   align-items: center;
   text-shadow: 0 0 10px #458588, 
-               0 0 20px #458588, 
-               0 0 30px #458588;
+               0 0 15px #458588, 
+               0 0 20px #458588,
 }
 
 a:hover {
