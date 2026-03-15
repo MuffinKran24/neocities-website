@@ -1,0 +1,51 @@
+body {
+  background-color: #282828;
+  font-family: "BigBlueTerm437 Nerd Font", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #ebdbb2;
+  font-size: 24;
+  text-align: center;
+  text-shadow: 0 0 10px #ebdbb2, 
+               0 0 20px #ebdbb2, 
+               0 0 30px #ebdbb2;
+}
+
+h1 {
+  color: #36a852;
+  text-align: center;
+  margin-top: 50;
+  font-size: 56;
+  text-shadow: 0 0 10px #36a852, 
+               0 0 20px #36a852, 
+               0 0 30px #36a852;
+}
+
+.back {
+  margin-top: 60;
+  font-size: 24;
+  text-align: center;
+}
+
+.socials {
+  font-size: 24;
+  text-align: center;
+  position: fixed;
+  bottom: 18;
+  width: 100%;
+}
+
+a {
+  color: #458588;
+  text-align: center;
+  align-items: center;
+  text-shadow: 0 0 10px #458588, 
+               0 0 20px #458588, 
+               0 0 30px #458588;
+}
+
+a:hover {
+  color: #84b8a6;
+}
