@@ -13,8 +13,7 @@ body {
   color: #ebdbb2;
   font-size: 24;
   text-align: center;
-  text-shadow: 0 0 10px #ebdbb2, 
-               0 0 15px #ebdbb2, 
+  text-shadow: 0 0 10px #ebdbb2; 
 }
 
 h1 {
@@ -22,14 +21,15 @@ h1 {
   text-align: center;
   margin-top: 50;
   font-size: 56;
-  text-shadow: 0 0 10px #36a852, 
-               0 0 15px #36a852, 
+  text-shadow: 0 0 10px #36a852; 
 }
 
 .back {
-  margin-top: 60;
   font-size: 24;
   text-align: center;
+  position: fixed;
+  bottom: 18;
+  width: 100%;
 }
 
 .socials {
@@ -44,9 +44,7 @@ a {
   color: #458588;
   text-align: center;
   align-items: center;
-  text-shadow: 0 0 10px #458588, 
-               0 0 15px #458588, 
-               0 0 20px #458588,
+  text-shadow: 0 0 10px #458588; 
 }
 
 a:hover {
