@@ -3,25 +3,46 @@
   src: url(Assets/BigBlueTerm437NerdFont-Regular.ttf)
 }
 
+:root {
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --red: #cc241d;
+  --blue: #458588;
+  --green: #98971a;
+  --violet: #b16286;
+  --pink: #d3869b;
+}
+
+/*:root {
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --red: #f38ba8;
+  --blue: #89b4fa;
+  --green: #a6e3a1;
+  --violet: #cba6f7;
+  --pink: #f5c2e7;
+}*/
+
+
 body {
-  background-color: #282828;
+  background-color: var(--bg);
   font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
-  color: #ebdbb2;
+  color: var(--fg);
   font-size: 24;
   text-align: center;
-  text-shadow: 0 0 10px #ebdbb2; 
+  text-shadow: 0 0 10px var(--fg);
 }
 
 h1 {
-  color: #36a852;
+  color: var(--green);
   text-align: center;
   margin-top: 50;
   font-size: 56;
-  text-shadow: 0 0 10px #36a852; 
+  text-shadow: 0 0 10px var(--green);
 }
 
 .back {
@@ -41,12 +62,13 @@ h1 {
 }
 
 a {
-  color: #458588;
+  color: var(--red);
   text-align: center;
   align-items: center;
-  text-shadow: 0 0 10px #458588; 
+  text-shadow: 0 0 10px var(--red);
+  text-decoration: none;
 }
 
 a:hover {
-  color: #84b8a6;
+  color: var(--violet);
 }
