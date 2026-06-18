@@ -45,6 +45,12 @@ h1 {
   text-shadow: 0 0 10px var(--green);
 }
 
+h3 {
+  color: var(--blue);
+  text-align: center;
+  text-shadow: 0 0 10px var(--blue);
+}
+
 .back {
   font-size: 24;
   text-align: center;
