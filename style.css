@@ -23,16 +23,16 @@
   --pink: #f5c2e7;
 }*/
 
-
 body {
-  background-color: var(--bg);
+  background: radial-gradient(#3c3836, #282828, #1d2021);
   font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   color: var(--fg);
-  font-size: 24;
+  font-size: 20;
   text-align: center;
   text-shadow: 0 0 10px var(--fg);
 }
@@ -41,7 +41,6 @@ h1 {
   color: var(--green);
   text-align: center;
   margin-top: 50;
-  font-size: 56;
   text-shadow: 0 0 10px var(--green);
 }
 
@@ -77,4 +76,13 @@ a {
 
 a:hover {
   color: var(--violet);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
