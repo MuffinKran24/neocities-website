@@ -1,9 +1,10 @@
+@import url("style.css");
+
 .game-item {
   display: flex;
   align-items: normal;
   gap: 15px;
-  border: 3px solid #a89984;
-  border-style: groove;
+  border: 3px inset #a89984;
   border-radius: 10px;
   width: 800px;
   margin-bottom: 14px;
@@ -16,7 +17,13 @@ body {
 }
 
 .game-text {
+  color: var(--fg);
+  text-shadow: 0 0 10px var(--fg);
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.game-item:hover {
+  transform: translate(0px, -5px);
 }

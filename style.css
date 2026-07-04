@@ -28,11 +28,11 @@ body {
   font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   min-height: 100vh;
   color: var(--fg);
-  font-size: 20;
+  font-size: 20px;
   text-align: center;
   text-shadow: 0 0 10px var(--fg);
 }
@@ -40,30 +40,47 @@ body {
 h1 {
   color: var(--green);
   text-align: center;
-  margin-top: 50;
+  margin-top: 50px;
   text-shadow: 0 0 10px var(--green);
+  font-size: 60px;
 }
 
-h3 {
+h2 {
   color: var(--blue);
   text-align: center;
   text-shadow: 0 0 10px var(--blue);
 }
 
 .back {
-  font-size: 24;
+  font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 18;
+  bottom: 18px;
   width: 100%;
 }
 
-.socials {
-  font-size: 24;
+.friends {
+  font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 18;
-  width: 100%;
+  bottom: 18px;
+  right: 10pc;
+  width: auto;
+  height: 12pc;
+}
+
+.socials {
+  font-size: 24px;
+  text-align: center;
+  position: fixed;
+  bottom: 18px;
+  width: auto;
+  height: 12pc;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -80,8 +97,8 @@ a:hover {
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
