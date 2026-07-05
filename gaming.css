@@ -4,7 +4,7 @@
   display: flex;
   align-items: normal;
   gap: 15px;
-  border: 3px inset #a89984;
+  border: 3px groove var(--bg3);
   border-radius: 10px;
   width: 800px;
   margin-bottom: 14px;
@@ -22,8 +22,4 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.game-item:hover {
-  transform: translate(0px, -5px);
 }

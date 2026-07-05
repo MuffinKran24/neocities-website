@@ -4,7 +4,9 @@
 }
 
 :root {
-  --bg: #282828;
+  --bg1: #282828;
+  --bg2: #3c3836;
+  --bg3: #1d2021;
   --fg: #ebdbb2;
   --red: #cc241d;
   --blue: #458588;
@@ -14,7 +16,21 @@
 }
 
 /*:root {
-  --bg: #1e1e2e;
+  --bg1: #fbf1c7;
+  --bg2: #ebdbb2;
+  --bg3: #f9f5d7;
+  --fg: #3c3836;
+  --red: #cc241d;
+  --blue: #458588;
+  --green: #98971a;
+  --violet: #b16286;
+  --pink: #8f3f71;
+}
+
+/*:root {
+  --bg1: #181825;
+  --bg2: #1e1e2e;
+  --bg3: #11111b;
   --fg: #cdd6f4;
   --red: #f38ba8;
   --blue: #89b4fa;
@@ -24,7 +40,7 @@
 }*/
 
 body {
-  background: radial-gradient(#3c3836, #282828, #1d2021);
+  background: radial-gradient(var(--bg2), var(--bg1), var(--bg3));
   font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
@@ -55,8 +71,9 @@ h2 {
   font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 18px;
-  width: 100%;
+  top: 2pc;
+  left: 2pc;
+  width: auto;
 }
 
 .friends {
@@ -76,6 +93,15 @@ h2 {
   bottom: 18px;
   width: auto;
   height: 12pc;
+}
+
+.button {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 .centered {
@@ -102,4 +128,10 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.theme_button {
+  position: fixed;
+  top: 1pc;
+  left: 1pc;
 }
