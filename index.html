@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Muffin</title>
     <link rel="stylesheet" href="style.css">
+    <script src="theme.js"></script>
     <link rel="icon" type="image/x-icon" href="Assets/damn.png">
   </head>
 
@@ -36,23 +37,5 @@
 
     <img src="Assets/Moon.png" class="theme_button button" id="theme-toggle" height="128px" width="128px">
     
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const themeToggle = document.getElementById('theme-toggle');
-        const htmlElement = document.documentElement;
-
-        themeToggle.addEventListener('click', () => {
-          const currentTheme = htmlElement.getAttribute('data-theme') || 'gruvbox-dark';
-    
-          if (currentTheme === 'gruvbox-dark') {
-            htmlElement.setAttribute('data-theme', 'gruvbox-light');
-            themeToggle.src = 'Assets/Sun.png'; 
-          } else {
-            htmlElement.setAttribute('data-theme', 'gruvbox-dark');
-            themeToggle.src = 'Assets/Moon.png';
-          }
-        });
-      });
-    </script>
   </body>
 </html>
