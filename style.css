@@ -4,43 +4,113 @@
 }
 
 :root {
-  --bg1: #282828;
-  --bg2: #3c3836;
-  --bg3: #1d2021;
-  --fg: #ebdbb2;
-  --red: #cc241d;
-  --blue: #458588;
-  --green: #98971a;
-  --violet: #b16286;
-  --pink: #d3869b;
+  --bg_h: #1d2021;
+  --bg: #282828;
+  --bg_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+
+  --fg: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+
+  --red: #fb4934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --gray: #928374;
+  --orange: #fe8019;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458588;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --gray-dim: #a89984;
+  --orange-dim: #d65d0e;
+
 }
 
-/*:root {
-  --bg1: #fbf1c7;
-  --bg2: #ebdbb2;
-  --bg3: #f9f5d7;
-  --fg: #3c3836;
-  --red: #cc241d;
-  --blue: #458588;
-  --green: #98971a;
-  --violet: #b16286;
-  --pink: #8f3f71;
+/* Gruvbox (dark) */
+[data-theme="gruvbox-dark"] {
+  --bg_h: #1d2021;
+  --bg: #282828;
+  --bg_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+
+  --fg: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+
+  --red: #fb4934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --gray: #928374;
+  --orange: #fe8019;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458588;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --gray-dim: #a89984;
+  --orange-dim: #d65d0e;
 }
 
-/*:root {
-  --bg1: #181825;
-  --bg2: #1e1e2e;
-  --bg3: #11111b;
-  --fg: #cdd6f4;
-  --red: #f38ba8;
-  --blue: #89b4fa;
-  --green: #a6e3a1;
-  --violet: #cba6f7;
-  --pink: #f5c2e7;
-}*/
+/* Gruvbox (light) */
+[data-theme="gruvbox-light"] {
+  --background-image: url("images/paper.png");
+  --bg_h: #f9f5d7;
+  --bg: #fbf1c7;
+  --bg_s: #f2e5bc;
+  --bg1: #ebdbb2;
+  --bg2: #d5c4a1;
+  --bg3: #bdae93;
+  --bg4: #a89984;
+
+  --fg: #282828;
+  --fg1: #3c3836;
+  --fg2: #504945;
+  --fg3: #665c54;
+  --fg4: #7c6f64;
+
+  --red: #9d0006;
+  --green: #79740e;
+  --yellow: #b57614;
+  --blue: #076678;
+  --purple: #8f3f71;
+  --aqua: #427b58;
+  --orange: #af3a03;
+  --gray: #928374;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458598;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --orange-dim: #d65d0e;
+  --gray-dim: #7c6f64;
+}
 
 body {
-  background: radial-gradient(var(--bg2), var(--bg1), var(--bg3));
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   font-family: "BigBlueTerm", monospace;
   font-weight: 400;
   font-style: normal;
@@ -118,7 +188,7 @@ a {
 }
 
 a:hover {
-  color: var(--violet);
+  color: var(--purple);
 }
 
 ul {
