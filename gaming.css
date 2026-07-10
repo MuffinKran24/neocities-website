@@ -4,7 +4,7 @@
   display: flex;
   align-items: normal;
   gap: 15px;
-  border: 3px groove var(--bg3);
+  border: 2px outset var(--bg2);
   border-radius: 10px;
   width: 800px;
   margin-bottom: 14px;

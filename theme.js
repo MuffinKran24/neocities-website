@@ -1,11 +1,9 @@
 const savedTheme = localStorage.getItem('site-theme') || 'gruvbox-dark';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
-// 2. Wait for the DOM to load ONLY to hook up the button click event
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   
-  // Set the correct image asset based on the theme that was just applied
   if (themeToggle) {
     themeToggle.src = savedTheme === 'gruvbox-dark' ? 'Assets/Moon.png' : 'Assets/Sun.png';
     
