@@ -1,0 +1,18 @@
+@import url("style.css");
+
+.artists {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+.artists a {
+  color: var(--fg);
+  text-shadow: 0 0 10px var(--fg);
+}
