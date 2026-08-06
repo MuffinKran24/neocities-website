@@ -146,23 +146,57 @@ h2 {
   width: auto;
 }
 
+.aboutme {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
+  margin-left: 16pc;
+  margin-right: 16pc;
+  height: 20pc;
+  
+}
+
+.navigation {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  font-size: 24px;
+  position: fixed;
+  right: 2pc;
+  top: 2pc;
+  width: 12pc;
+  height: 30pc;
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.6;
+}
+
 .friends {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 18px;
-  right: 10pc;
-  width: auto;
-  height: 12pc;
+  bottom: 2pc;
+  right: 2pc;
+  width: 30pc;
+  height: 14pc;
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
 }
 
 .socials {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 18px;
-  width: auto;
-  height: 12pc;
+  bottom: 2pc;
+  width: 30pc;
+  height: 14pc;
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
 }
 
 .button {
@@ -180,18 +214,19 @@ h2 {
 }
 
 a {
+  display: inline-block;
   color: var(--red);
   text-align: center;
   align-items: center;
   text-shadow: 0 0 10px var(--red);
   text-decoration: none;
+  transition: transform 0.3s ease;
 }
 
 a:hover {
   color: var(--purple);
+  transform: scale(1.1);
 }
-
-
 
 .theme_button {
   position: fixed;
