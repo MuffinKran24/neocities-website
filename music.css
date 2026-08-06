@@ -1,6 +1,21 @@
 @import url("style.css");
 
 .artists {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
+  margin-left: 256px;
+  margin-right: 256px;
+  height: auto; 
+  margin-bottom: 128px;
+}
+
+.artists a {
+  color: var(--fg);
+  text-shadow: 0 0 10px var(--fg);
+}
+
+.artists ul {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -12,7 +27,12 @@
   font-size: 24px;
 }
 
-.artists a {
-  color: var(--fg);
-  text-shadow: 0 0 10px var(--fg);
+.guitar {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
+  margin-left: 256px;
+  margin-right: 256px;
+  height: auto;
+  margin-bottom: 8px;
 }

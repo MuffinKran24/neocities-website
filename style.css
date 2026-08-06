@@ -140,19 +140,16 @@ h2 {
 .back {
   font-size: 24px;
   text-align: center;
-  position: fixed;
-  top: 2pc;
-  right: 2pc;
-  width: auto;
+  bottom: 2px;
 }
 
 .aboutme {
   background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   border: 4px solid var(--bg2);
   border-radius: 10px;
-  margin-left: 16pc;
-  margin-right: 16pc;
-  height: 20pc;
+  margin-left: 256px;
+  margin-right: 256px;
+  height: 320px;
   
 }
 
@@ -160,10 +157,10 @@ h2 {
   background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   font-size: 24px;
   position: fixed;
-  right: 2pc;
-  top: 2pc;
-  width: 12pc;
-  height: 30pc;
+  right: 32px;
+  top: 32px;
+  width: 192px;
+  height: auto;
   border: 4px solid var(--bg2);
   border-radius: 10px;
 }
@@ -172,6 +169,7 @@ h2 {
   list-style: none;
   padding: 0;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 .friends {
@@ -179,12 +177,13 @@ h2 {
   font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 2pc;
-  right: 2pc;
-  width: 30pc;
-  height: 14pc;
+  bottom: 32px;
+  width: 480px;
+  height: 224px;
   border: 4px solid var(--bg2);
   border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .socials {
@@ -192,9 +191,10 @@ h2 {
   font-size: 24px;
   text-align: center;
   position: fixed;
-  bottom: 2pc;
-  width: 30pc;
-  height: 14pc;
+  left: 32px;
+  top: 32px;
+  width: 192px;
+  height: 480px;
   border: 4px solid var(--bg2);
   border-radius: 10px;
 }
@@ -230,6 +230,6 @@ a:hover {
 
 .theme_button {
   position: fixed;
-  top: 1pc;
-  left: 1pc;
+  top: 16px;
+  left: 250px;
 }
