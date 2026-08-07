@@ -4,7 +4,7 @@
   display: flex;
   align-items: normal;
   gap: 15px;
-  border: 4px outset var(--bg2);
+  border: 4px solid var(--bg2);
   border-radius: 10px;
   width: 800px;
   margin-bottom: 24px;

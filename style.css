@@ -149,8 +149,8 @@ h2 {
   border-radius: 10px;
   margin-left: 256px;
   margin-right: 256px;
-  height: 320px;
-  
+  height: auto;
+  z-index: 1;
 }
 
 .navigation {
@@ -184,6 +184,7 @@ h2 {
   border-radius: 10px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 
 .socials {
@@ -227,10 +228,8 @@ a:hover {
   color: var(--purple);
   transform: scale(1.1);
 }
-/*
+
 .theme_button {
-  position: fixed;
-  top: 16px;
-  left: 250px;
+  z-index: 1000000;
 }
-*/
+
