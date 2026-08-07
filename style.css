@@ -194,7 +194,7 @@ h2 {
   left: 32px;
   top: 32px;
   width: 192px;
-  height: 480px;
+  height: auto;
   border: 4px solid var(--bg2);
   border-radius: 10px;
 }
@@ -227,9 +227,10 @@ a:hover {
   color: var(--purple);
   transform: scale(1.1);
 }
-
+/*
 .theme_button {
   position: fixed;
   top: 16px;
   left: 250px;
 }
+*/
