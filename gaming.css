@@ -1,6 +1,7 @@
 @import url("style.css");
 
 .game-item {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   display: flex;
   align-items: normal;
   gap: 15px;
@@ -22,4 +23,5 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 24;
 }

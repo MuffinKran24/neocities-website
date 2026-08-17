@@ -1,6 +1,5 @@
 @import url("style.css");
 
-
 .programming {
   background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
   border: 4px solid var(--bg2);
