@@ -1,7 +1,7 @@
 const savedTheme = localStorage.getItem('site-theme') || 'gruvbox-dark';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
-document.addEventListener('DOMContentLoaded', () => {
+function initThemeToggle() {
   const themeToggle = document.getElementById('theme-toggle');
   
   if (themeToggle) {
@@ -22,4 +22,4 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('site-theme', newTheme);
     });
   }
-});
+}
