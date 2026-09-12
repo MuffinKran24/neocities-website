@@ -40,7 +40,6 @@
 
 /* Gruvbox (light) */
 [data-theme="gruvbox-light"] {
-  --background-image: url("images/paper.png");
   --bg_h: #f9f5d7;
   --bg: #fbf1c7;
   --bg_s: #f2e5bc;
