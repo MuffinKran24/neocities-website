@@ -23,3 +23,5 @@ function initThemeToggle() {
     });
   }
 }
+
+// i really hate javascript

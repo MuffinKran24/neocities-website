@@ -181,6 +181,16 @@ h2 {
   justify-content: center;
 }
 
+.box {
+  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  border: 4px solid var(--bg2);
+  border-radius: 10px;
+  margin-left: 256px;
+  margin-right: 256px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
 a {
   display: inline-block;
   color: var(--red);

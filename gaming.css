@@ -6,9 +6,9 @@
   align-items: normal;
   gap: 15px;
   border: 4px solid var(--bg2);
-  border-radius: 10px;
+  border-radius: 8px;
   width: 800px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 body {
