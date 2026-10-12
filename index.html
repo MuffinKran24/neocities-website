@@ -13,7 +13,7 @@
     <h1>Muffin</h1>
     <div class="aboutme">
       <h2>About me</h2>
-      <p>Hello, I'm Muffin. I'm a 17 years old computer enthusiast with love for programming and low level stuff.</p>
+      <p>Hello, I'm Muffin. I'm a <abbr title="24.04.2009"><span id="age" style="color: var(--purple);"></span></abbr> years old computer enthusiast with love for programming and low level stuff.</p>
       <p>Here I want to share some of my projects and hobbys or just random stuff.</p>
       <p>I also like <a href="gaming.html">gaming</a> and <a href="music.html">playing guitar</a>, so maybe I will show some stuff on here someday.</p>
       <p>I made this site for 1920x1080 displays or larger. It will probably not look as good on other screens.</p>
@@ -37,6 +37,20 @@
 
     <div id="nav-placeholder"></div>
     <script src="nav.js"></script>
+
+    <!-- This script automatically calculates my age based on the current date -->
+    <!-- This script is straight-up stolen from a friend(Bobo) -->
+  <script>
+	  const birth = new Date("2009-04-24");
+	  const now = new Date();
+	
+	  // milliseconds in one year (accounting for leap years)
+	  const msPerYear = 365.2425 * 24 * 60 * 60 * 1000;
+	
+	  const age = (now - birth) / msPerYear;
+	
+	  document.getElementById("age").textContent = age.toFixed(2);
+  </script>
 
   </body>
 </html>
