@@ -74,7 +74,7 @@
 }
 
 body {
-  background: radial-gradient(var(--bg_s), var(--bg), var(--bg_h));
+  background: radial-gradient(var(--bg), var(--bg_h));
   font-family: "BigBlueTerm";
   font-weight: 400;
   font-style: normal;
@@ -88,16 +88,20 @@ body {
 }
 
 h1 {
-  color: var(--green);
+  color: var(--green-dim);
   text-align: center;
   margin-top: 24px;
-  text-shadow: 0 0 10px var(--green);
+  text-shadow: 0 0 10px var(--green-dim);
   font-size: 60px;
 }
 
 h2 {
+  color: var(--blue-dim);
+  text-shadow: 0 0 10px var(--blue-dim);
+}
+
+h3 {
   color: var(--blue);
-  text-align: center;
   text-shadow: 0 0 10px var(--blue);
 }
 
@@ -194,8 +198,6 @@ h2 {
 a {
   display: inline-block;
   color: var(--red);
-  text-align: center;
-  align-items: center;
   text-shadow: 0 0 10px var(--red);
   text-decoration: none;
   transition: transform 0.3s ease;
@@ -205,8 +207,3 @@ a:hover {
   color: var(--purple);
   transform: scale(1.1);
 }
-
-.theme_button {
-  z-index: 1000000;
-}
-
